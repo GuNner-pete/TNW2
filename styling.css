@@ -137,6 +137,8 @@
 
   .latest-cont {
     padding: 5px;
+    font-size: 20px;
+    font-weight: bolder;
   }
 
   .latest-cont span {
@@ -221,4 +223,117 @@
     top: 19px;
     left: 10px;
   }
+
+  .last-sec {
+    /* display: grid; */
+    /* grid-template-rows: repeat(3, 1fr); */
+    /* height: 800px; */
+    padding: 4px;
+    row-gap: 7px;
+  }
+  .last-sec span {
+    color: gray;
+  }
+  .last-sec .fa {
+    padding: 2px;
+    color: gray;
+  }
+
+  .last-sec .material-icons {
+    padding: 2px;
+    position: relative;
+    top: 5px;
+    font-size: 20px;
+    color: gray;
+  }
+
+
+  .last-sec p {
+    font-family: 'Bree Serif', serif;
+    font-weight: bolder;
+    font-size: 20px;
+    color: white;
+  }
+  
+  h1 {
+    color: #f42;
+    padding: 10px;
+    margin: 0;
+    border: 0;
+  }
+  
+  .last-sec .arts {
+    height: 250px;
+  }
+
+  .describe {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    background-color: rgba(170, 170, 170, 0.219);
+  }
+
+  .describe img {
+    max-width: 100%;
+  }
+
+  .describe p {
+    color: red;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+  }
+
+  .describe span {
+    display: block;
+    font-size: 12px;
+    color: red;
+    padding: 10px;
+  }
+
+  .last-sec a {
+    text-decoration: none;
+  }
+  
+  .last-sec ul {
+    padding: 15px;
+  }
+
+  .last-sec ul li {
+    padding: 5px;
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    border-bottom: rgba(73, 69, 69, 0.137) 1px solid;
+  }
+
+  .latest-last {
+    display: flex;
+    flex-flow: column;
+  }
+
+  .latest-sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .latest-sub a {
+    padding: 20px;
+    text-decoration: none;
+    align-self: flex-end;
+    color: red;
+  }
+
+  .latest-last .old-span {
+    text-decoration: line-through;
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  .latest-last .new-span {
+    font-size: 20px;
+    color: black;
+    padding: 15px;
+    font-weight: lighter;
+  }
+}
 }
