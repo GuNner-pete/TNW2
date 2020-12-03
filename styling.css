@@ -406,6 +406,7 @@
     align-items: center;
     justify-items: center;
   }
+
 @media only screen and (min-width: 767px) {
 
   .center{
@@ -452,4 +453,67 @@
     flex-flow: row;
     flex-wrap: wrap;
   }
+
+  .fund-container {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+  .fund-main {
+    max-width: 31%;
+    padding: 8px;
+    height: 250px;
+  }
+
+  .fund-p {
+    font-size: 17px;
+  }
+
+  .fund-tag {
+    font-size: 15px;
+  }
+
+  .fund-last {
+    font-size: 15px;
+  }
+
+  .fund-img {
+    height: 60px;
+    width: 60px;
+    top: 35px;
+    left: 20px;
+  }
+
+  .last-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+  }
+
+  .latest-last {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+  }
+
+@media only screen and (min-width: 1000px) {
+  
+  .latest {
+    justify-content: center;
+  }
+  .first-sec {
+    height: 500px;
+  }
+
+  .first-sec p {
+    font-size: 30px;
+  }
+
+  .latest-art {
+    display: flex;
+    flex-flow: column;
+    max-width: 23%;
+    margin: 8px;
+    }
 }
