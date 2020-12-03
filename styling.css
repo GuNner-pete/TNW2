@@ -408,7 +408,7 @@ h1 {
 }
 
 @media only screen and (min-width: 767px) {
-  .center{
+  .center {
     max-width: 1200px;
   }
 
@@ -497,6 +497,7 @@ h1 {
     flex-wrap: wrap;
   }
 }
+
 @media only screen and (min-width: 1024px) {
   .latest {
     justify-content: center;
@@ -515,7 +516,7 @@ h1 {
     flex-flow: column;
     max-width: 23%;
     margin: 8px;
-    }
+  }
 
   .fund-main {
     max-width: 23%;
