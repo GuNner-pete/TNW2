@@ -497,7 +497,7 @@
     flex-wrap: wrap;
   }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1024px) {
   
   .latest {
     justify-content: center;
@@ -516,4 +516,16 @@
     max-width: 23%;
     margin: 8px;
     }
+
+  .fund-main {
+    max-width: 23%;
+    padding: 8px;
+    height: 250px;
+  }
+
+  .last-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+  }
 }
