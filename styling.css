@@ -130,6 +130,11 @@
     column-gap: 15px;
   }
 
+  .latest-art p {
+    font-size: 15px;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+
   .latest-img {
     padding: 8px;
     width: 100%;
