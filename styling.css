@@ -470,6 +470,7 @@ h1 {
 
   .nav-bar-two {
     display: flex;
+    position: relative;
     flex-flow: row;
     justify-content: space-around;
     align-items: center;
@@ -603,6 +604,7 @@ h1 {
 
   .nav-bar-two {
     height: 100%;
+    z-index: 100;
   }
 
   .nav-bar-three {
