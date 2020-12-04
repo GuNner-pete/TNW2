@@ -494,6 +494,7 @@ h1 {
     height: 500px;
   }
 
+
   .first-art {
     grid-column: 1/3;
     grid-row: 1/3;
