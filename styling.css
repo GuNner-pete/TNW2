@@ -577,7 +577,7 @@ h1 {
     justify-content: center;
   }
 
-  #TNW {
+  .first-art .TNW {
     background: linear-gradient(to bottom right, rgba(228, 41, 41, 0.295), rgba(240, 21, 21, 0.034));
     display: block;
     font-size: 180px;
