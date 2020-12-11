@@ -1,5 +1,5 @@
 
-# Project Name: New york times
+# Project Name: The Next Web homepage.
 
 -My first project of my second week.It's the homepage of 'thenextweb.com'.
 -Built as a responsive page.
@@ -10,11 +10,9 @@
 - CSS
 
 ## Live Demo
-
-## Getting Started
+https://gunner-pete.github.io/TNW2/
 
 ## Authors
-
 
 👤 **Author**
 Peter Mo Gerges
@@ -30,7 +28,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
--This project is a copy of the page 'https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0'
+-This project is a copy of the page "https://thenextweb.com/"
 -Inspiration
 -etc
 
